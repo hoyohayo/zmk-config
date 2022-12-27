@@ -16,6 +16,9 @@
 
 /*Copied from 
 <https://github.com/qmk/qmk_firmware/blob/master/quantum/keymap_extras/keymap_german.h>
+based on source of 
+<https://github.com/zmkfirmware/zmk/issues/177#issuecomment-1306247821>
+where this is the current approach to include german layouts into zmk
 */
 
 // needed by zmk
