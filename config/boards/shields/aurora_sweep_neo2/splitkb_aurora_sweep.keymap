@@ -10,6 +10,7 @@
 #include "keys_de.h"                // information found on: https://github.com/zmkfirmware/zmk/issues/177#issuecomment-1306247821
 
 //Layer definitions
+// Most of it copied from: https://github.com/duckyb/zmk-sweep/blob/main/config/cradio.keymap
 
 #define BASE 0
 #define SYM 1
