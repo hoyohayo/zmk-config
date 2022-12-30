@@ -2,7 +2,7 @@ My version of the SplitKB Aurora Sweep with a Neo2 layout.
 
 <div align="center">
   
-  ![sweep-layout](https://raw.githubusercontent.com/hoyohayo/zmk-config/master/Sweepd_Neo2.svg)
+  ![sweep-layout](https://raw.githubusercontent.com/hoyohayo/zmk-config/master/Layout/Sweepd_Neo2.svg)
 
 </div>
 
