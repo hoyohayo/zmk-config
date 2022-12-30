@@ -113,8 +113,6 @@
  &kp LC(Z)  &kp LC(X)   &kp LC(C)    &kp TAB  &kp LC(V)                  &kp LC(BSPC)  &kp BSPC    &trans     &trans    &trans
     &trans  &kp LCTRL   &kp ENTER      &mo FNC
             >;
-
-            sensor-bindings = <&inc_dec_kp  undefined>;
         };
 
         // Function keys with modifiers
