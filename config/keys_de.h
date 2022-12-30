@@ -111,7 +111,7 @@ where this is the current approach to include german layouts into zmk
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-#define DE_DEG  S(DE_CIRC) // °
+#define DE_DEG  LS(DE_CIRC) // °
 #define DE_EXLM LS(DE_1)    // !
 #define DE_DQUO LS(DE_2)    // "
 #define DE_SECT LS(DE_3)    // §
