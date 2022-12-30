@@ -98,7 +98,7 @@
             &kp N1 &kp N2 &kp N3 &kp N4 &kp N5              &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
             &kp DE_LABK &kp DE_PERC &kp DE_LPRN &kp DE_LCBR &kp DE_LBRC             &kp DE_EQL &kp DE_QUES &kp DE_QUOT &kp DE_MINS &kp DE_ASTR
             &kp DE_RABKT &kp DE_DLR &kp DE_RPRN &kp DE_RCBR &kp DE_RBRC             &kp DE_AT &kp DE_EXLM &kp DE_DQUO &kp DE_PLUS &kp DE_SLSH
-                                                        &mo FNC  &mo SYM2           &trans &trans
+                                                        &mo FNC &mo SYM2           &trans &trans
             >;
         };
 
