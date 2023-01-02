@@ -88,7 +88,7 @@
             bindings = <
        &kp X             &kp V        &kp L   &kp C   &kp W                   &kp K   &kp H      &kp G    &kp F   &kp Q
        &kp U             &kp I        &kp A   &kp E   &kp O                   &kp S   &kp N      &kp R    &kp T   &kp D
- &kp DE_UDIA       &kp DE_ODIA  &kp DE_ADIA   &kp P   &kp Z                   &kp B   &kp M  &kp COMMA  &kp DOT   &kp J
+ &kp DE_UDIA       &kp DE_ODIA  &kp DE_ADIA   &kp P   &kp Y                   &kp B   &kp M  &kp COMMA  &kp DOT   &kp J
        &mo EXT  &mt LSHIFT SPACE    &kp SPACE   &sl SYM
             >;
         };
@@ -98,8 +98,8 @@
         sym_layer {
             bindings = <
       &kp N1       &kp N2       &kp N3       &kp N4       &kp N5                      &kp N6       &kp N7       &kp N8       &kp N9       &kp N0
- &kp DE_LABK  &kp DE_PERC  &kp DE_LPRN  &kp DE_LCBR  &kp DE_LBRC                  &kp DE_EQL  &kp DE_QUES  &kp DE_QUOT  &kp DE_MINS  &kp DE_ASTR
- &kp DE_RABK   &kp DE_DLR  &kp DE_RPRN  &kp DE_RCBR  &kp DE_RBRC                   &kp DE_AT  &kp DE_EXLM  &kp DE_DQUO  &kp DE_PLUS  &kp DE_SLSH
+ &kp DE_LABK  &kp DE_PERC  &kp DE_LPRN  &kp DE_LCBR  &kp DE_LBRC                  &kp DE_EQL  &kp DE_QUES  &kp DE_QUOT  &kp DE_PLUS  &kp DE_ASTR
+ &kp DE_RABK   &kp DE_DLR  &kp DE_RPRN  &kp DE_RCBR  &kp DE_RBRC                   &kp DE_AT  &kp DE_EXLM  &kp DE_DQUO  &kp DE_MINS  &kp DE_SLSH
        &mo FNC        &mo SYM2       &trans       &trans
             >;
         };
@@ -141,7 +141,7 @@
 
         accent_layer {
             bindings = <
-  &none   &none   &none   &none   &none                      &kp DE_Z   &none   &none   &none   &none
+  &none   &none   &none   &none   &none                      &kp DE_Y   &none   &none   &none   &none
   &none   &none   &none   &none   &none                  &kp DE_SS   &none   &none   &none   &none
   &none   &none   &none   &none   &none                      &none   &none   &none   &none   &none
   &none   &none   &none   &none
@@ -165,7 +165,7 @@
             bindings = <
     &tog NUM  &kp KP_DIVIDE  &kp KP_MULTIPLY   &kp KP_PLUS  &kp KP_MINUS                     &none  &kp KP_N7  &kp KP_N8  &kp KP_N9     &kp BSPC
    &kp TAB          &none           &kp UP         &none         &none                  &kp LPAR  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp RPAR
-     &none       &kp LEFT         &kp DOWN     &kp RIGHT         &none                     &none  &kp KP_N1  &kp KP_N2  &kp KP_N3     &none
+     &none       &kp LEFT         &kp DOWN     &kp RIGHT         &none                     &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3     &none
  &kp COMMA        &kp DOT        &kp ENTER  &kp DE_EQL
             >;
         };
