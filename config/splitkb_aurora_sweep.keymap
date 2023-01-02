@@ -154,7 +154,7 @@
         &none   &none   &none   &none   &none                      &none   &none   &none   &none   &none
         &none   &none   &none   &none   &kp DE_SS                  &none   &none   &none   &none   &none
         &none   &none   &none   &none   &kp DE_Y                   &none   &none   &none   &none   &none
-                                &none   &none                      &none   &none
+                                &none   &sk LSHIFT                 &none   &none
             >;
         };
 
