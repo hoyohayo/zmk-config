@@ -89,7 +89,7 @@
         // &trans -> transparent behavior simply ignores key position presses/releases, so the will be passed down to the next active layer in the stack
 
         default_layer {
-            label = "Default";
+            label = "Base";
             bindings = <
         &kp X        &kp V        &kp L        &kp C    &kp W                 &kp K      &kp H  &kp G      &kp F    &kp Q
         &kp U        &kp I        &kp A        &kp E    &kp O                 &kp S      &kp N  &kp R      &kp T    &kp D

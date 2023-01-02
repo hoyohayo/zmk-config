@@ -1,5 +1,9 @@
 My version of the SplitKB Aurora Sweep with a Neo2 layout.
 
+Designed my own variation of a case as drill holes are incompatible to the original sweep. Files can be found under [STL](https://github.com/hoyohayo/zmk-config/STL)
+
+Layout is inspired by [Seniply by Stevep99](https://stevep99.github.io/seniply/) and adapted to own needs.
+
 <div align="center">
   
   ![sweep-layout](https://raw.githubusercontent.com/hoyohayo/zmk-config/master/Layout/Sweepd_Neo2.svg)
