@@ -56,7 +56,7 @@
                 <&macro_press   &kp LALT>,
                 <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N7 &kp KP_N7>,
                 <&macro_release &kp LALT>;
-        }
+        };
 
         unicode_dia: unicode_dia {
             label = "ZM_plus_minus";
@@ -68,7 +68,7 @@
                 <&macro_press   &kp LALT>,
                 <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N1 &kp KP_N6>,
                 <&macro_release &kp LALT>;
-        }
+        };
     };
 
     combos {
