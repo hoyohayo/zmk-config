@@ -796,7 +796,7 @@
                 <mxCell id="K1fGXpkM777BTBIj_rcy-9" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="269.25" y="1905" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="K1fGXpkM777BTBIj_rcy-10" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
+                <mxCell id="K1fGXpkM777BTBIj_rcy-10" value="&lt;span style=&quot;background-color: rgb(56 , 62 , 71)&quot;&gt;,&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="309.25" y="1913" width="40" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="K1fGXpkM777BTBIj_rcy-11" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
@@ -811,13 +811,13 @@
                 <mxCell id="K1fGXpkM777BTBIj_rcy-14" value="&lt;span style=&quot;font-family: &amp;quot;segoe ui emoji&amp;quot;, &amp;quot;apple color emoji&amp;quot;, &amp;quot;noto color emoji&amp;quot;; font-size: 32px;&quot;&gt;→&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="269.25" y="1945" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="K1fGXpkM777BTBIj_rcy-15" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
+                <mxCell id="K1fGXpkM777BTBIj_rcy-15" value="&lt;span style=&quot;background-color: rgb(56 , 62 , 71)&quot;&gt;.&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="309.25" y="1953" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="K1fGXpkM777BTBIj_rcy-16" value="," style="whiteSpace=wrap;html=1;aspect=fixed;rotation=15;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
+                <mxCell id="K1fGXpkM777BTBIj_rcy-16" value="&lt;span style=&quot;font-family: &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;apple color emoji&amp;#34; , &amp;#34;noto color emoji&amp;#34; ; font-size: 28px&quot;&gt;⌥&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;rotation=15;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="289.25" y="1999" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="K1fGXpkM777BTBIj_rcy-17" value="." style="whiteSpace=wrap;html=1;aspect=fixed;rotation=30;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
+                <mxCell id="K1fGXpkM777BTBIj_rcy-17" value="&lt;span style=&quot;font-family: &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;apple color emoji&amp;#34; , &amp;#34;noto color emoji&amp;#34; ; font-size: 28px&quot;&gt;⇧&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;rotation=30;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="337.25" y="2017" width="40" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="K1fGXpkM777BTBIj_rcy-18" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
