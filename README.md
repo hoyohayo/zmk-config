@@ -1,6 +1,12 @@
-My version of the SplitKB Aurora Sweep with a Neo2 layout.
+My version of the [SplitKB Aurora Sweep](https://splitkb.com/products/aurora-sweep-pcb-kit) with a [Neo2](https://www.neo-layout.org/) layout.
 
-Designed my own variation of a case as drill holes are incompatible to the original sweep. Files can be found under [STL](https://github.com/hoyohayo/zmk-config/STL)
+Designed my own variation of a case as drill hole positions are incompatible to the original sweep. Files can be found under [STL](https://github.com/hoyohayo/zmk-config/STL)
+
+To assemble the case the following things are needed:
+
+- [ ] 8 x M2x4 mm heat inserts
+- [ ] 16 x Ø6x3 mm magnets
+- [ ] 8 x M2x8 mm screws (ISO 7991 or ISO 14581 recommended)
 
 Layout is inspired by [Seniply by Stevep99](https://stevep99.github.io/seniply/) and adapted to own needs.
 
