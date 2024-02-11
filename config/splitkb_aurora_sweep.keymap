@@ -8,6 +8,10 @@
 #include "keys_de.h"                // information found on: https://github.com/zmkfirmware/zmk/issues/177#issuecomment-1306247821
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/rgb.h>
+#include <dt-bindings/zmk/ext_power.h>
+
 
 //Layer definitions
 // Most of it copied from: https://github.com/duckyb/zmk-sweep/blob/main/config/cradio.keymap
@@ -22,8 +26,8 @@
 #define NUM 7
 
 &mt {
-    flavor = "tap-preferred";
-    tapping_term_ms = <200>;
+  //  flavor = "tap-preferred";
+   // tapping_term_ms = <200>;
 };
 
 &caps_word {
@@ -178,7 +182,7 @@
             >;
         };
 
-        // Low frequency symbols
+        // Low frequency symbols and mouse clicks
 
         symbols_2_layer {
             label = "Sym2";
@@ -186,7 +190,7 @@
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                 &kp DE_CIRC   &kp DE_UNDS   &kp DE_PERC   &kp DE_EURO   &kp DE_HASH       &none         &none         &none         &none         &none
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &kp DE_GRV    &kp DE_TILD   &kp DE_BSLS   &kp DE_PIPE   &kp DE_AMPR       &none         &none         &none         &none         &none
+                &kp DE_GRV    &kp DE_TILD   &kp DE_BSLS   &kp DE_PIPE   &kp DE_AMPR       &none         &mkp LCLK     &mkp RCLK     &mkp MCLK     &none
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 &uc_dia       &uc_pm        &kp DE_SECT   &kp DE_MICR   &kp DE_DEG        &none         &none         &none         &none         &none
             // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
@@ -220,9 +224,9 @@
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                 &bootloader   &none         &none         &bt BT_CLR    &bt BT_SEL 0      &bt BT_SEL 3  &none         &unstick      &none         &bootloader
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &none         &none         &none         &none         &bt BT_SEL 1      &bt BT_SEL 4  &none         &none         &none         &none
+                &none         &none         &none         &none         &bt BT_SEL 1      &bt BT_SEL 4  &none         &rgb_ug RGB_EFF &rgb_ug RGB_EFR         &none
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &none         &none         &none         &none         &bt BT_SEL 2      &bt BT_SEL 5  &none         &none         &none         &none
+                &rgb_ug RGB_TOG   &none     &none         &none         &bt BT_SEL 2      &bt BT_SEL 5  &none         &rgb_ug RGB_BRI &rgb_ug RGB_BRD         &none
             // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
                                                           &none         &none             &none         &none
             //                                           ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯
