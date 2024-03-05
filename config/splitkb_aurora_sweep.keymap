@@ -8,10 +8,22 @@
 #include "keys_de.h"                // information found on: https://github.com/zmkfirmware/zmk/issues/177#issuecomment-1306247821
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/mouse.h>
-#include <dt-bindings/zmk/rgb.h>
-#include <dt-bindings/zmk/ext_power.h>
+#include <dt-bindings/zmk/mouse.h>  // include mouse actions
+#include <dt-bindings/zmk/rgb.h>    // include rgb
+#include <dt-bindings/zmk/ext_power.h>      // include external power management
 
+// move nice!view CS pin to P1.01: https://nicekeyboards.com/docs/nice-nano/pinout-schematic/
+// recommended on: https://discordapp.com/channels/574598631399751680/1139169271168114811
+
+&nice_view_spi {
+    cs-gpios = <&gpio1 1 GPIO_ACTIVE_HIGH>;
+};
+
+// 17 + 6 LEDs, from https://docs.splitkb.com/hc/en-us/articles/6485468787100-Aurora-Sweep-schematics
+// 6 backlight LEDs were not soldered so only 17 per side
+&led_strip {
+    chain-length = <17>;
+};
 
 //Layer definitions
 // Most of it copied from: https://github.com/duckyb/zmk-sweep/blob/main/config/cradio.keymap
@@ -224,9 +236,9 @@
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                 &bootloader   &none         &none         &bt BT_CLR    &bt BT_SEL 0      &bt BT_SEL 3  &none         &unstick      &none         &bootloader
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &none         &none         &none         &none         &bt BT_SEL 1      &bt BT_SEL 4  &none         &rgb_ug RGB_EFF &rgb_ug RGB_EFR         &none
+                &rgb_ug RGB_SAI &rgb_ug RGB_SAD &none     &none         &bt BT_SEL 1      &bt BT_SEL 4  &none         &rgb_ug RGB_EFF &rgb_ug RGB_EFR         &none
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &rgb_ug RGB_TOG   &none     &none         &none         &bt BT_SEL 2      &bt BT_SEL 5  &none         &rgb_ug RGB_BRI &rgb_ug RGB_BRD         &none
+                &rgb_ug RGB_ON &rgb_ug RGB_OFF &none      &none         &bt BT_SEL 2      &bt BT_SEL 5  &none         &rgb_ug RGB_BRI &rgb_ug RGB_BRD         &none
             // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
                                                           &none         &none             &none         &none
             //                                           ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯

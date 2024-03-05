@@ -21,7 +21,6 @@ based on source of
 where this is the current approach to include german layouts into zmk
 */
 
-// needed by zmk?
 // #pragma once
 
 // #include <dt-bindings/zmk/hid_usage.h>
