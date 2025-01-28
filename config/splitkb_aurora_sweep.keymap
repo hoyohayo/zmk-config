@@ -236,7 +236,7 @@
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                 &bootloader   &none         &none         &bt BT_CLR    &bt BT_SEL 0      &bt BT_SEL 3  &none         &unstick      &none         &bootloader
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &rgb_ug RGB_SAI &rgb_ug RGB_SAD &none     &none         &bt BT_SEL 1      &bt BT_SEL 4  &none         &rgb_ug RGB_EFF &rgb_ug RGB_EFR         &none
+                &rgb_ug RGB_SAI &rgb_ug RGB_SAD &studio_unlock     &none         &bt BT_SEL 1      &bt BT_SEL 4  &none         &rgb_ug RGB_EFF &rgb_ug RGB_EFR         &none
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 &rgb_ug RGB_ON &rgb_ug RGB_OFF &none      &none         &bt BT_SEL 2      &bt BT_SEL 5  &none         &rgb_ug RGB_BRI &rgb_ug RGB_BRD         &none
             // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
