@@ -2,6 +2,9 @@ My version of the [SplitKB Aurora Sweep](https://splitkb.com/products/aurora-swe
 
 Designed my own variation of a case as drill hole positions are incompatible to the original sweep. Files can be found under [STL](https://github.com/hoyohayo/zmk-config/STL)
 
+A quick render of the case:
+![Sweep Tent](https://raw.githubusercontent.com/hoyohayo/zmk-config/master/STL/AuroraSweep.png "Aurora Sweep Tent")
+
 To assemble the case the following things are needed:
 
 - [ ] 8 x M2x4 mm heat inserts
