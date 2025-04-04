@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="AWO8kFcHUQczcNk0YBnU" name="Page-1">
-        <mxGraphModel dx="1130" dy="1210" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1812" dy="1109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -221,7 +221,7 @@
                 <mxCell id="qOO70KsoDbuKheBEqoZG-59" value="?" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="518" y="433" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="qOO70KsoDbuKheBEqoZG-60" value="'" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
+                <mxCell id="qOO70KsoDbuKheBEqoZG-60" value="&#39;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="558" y="418" width="40" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="qOO70KsoDbuKheBEqoZG-61" value="+" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
@@ -981,7 +981,7 @@
                 <mxCell id="Iln8VHn3yRtPbIMxZNEa-34" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;RGB Eff -&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="596.75" y="2220" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="Iln8VHn3yRtPbIMxZNEa-35" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
+                <mxCell id="Iln8VHn3yRtPbIMxZNEa-35" value="&lt;span style=&quot;color: rgb(175, 185, 199); font-size: 13px;&quot;&gt;RGB Hue+&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="636.75" y="2245" width="40" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="Iln8VHn3yRtPbIMxZNEa-36" value="&lt;div&gt;BT&lt;/div&gt;&lt;div&gt;5&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontFamily=Verdana;fontStyle=1;fontColor=#090e14;fillColor=#5C8CCA;rounded=1;strokeColor=#456893;" parent="1" vertex="1">
@@ -996,7 +996,7 @@
                 <mxCell id="Iln8VHn3yRtPbIMxZNEa-39" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;RGB Bri -&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="596.75" y="2260" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="Iln8VHn3yRtPbIMxZNEa-40" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
+                <mxCell id="Iln8VHn3yRtPbIMxZNEa-40" value="&lt;span style=&quot;color: rgb(175, 185, 199); font-size: 13px;&quot;&gt;RGB Hue-&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="636.75" y="2285" width="40" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="Iln8VHn3yRtPbIMxZNEa-41" value="&lt;div&gt;SET&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;rotation=-30;fontSize=14;fontFamily=Verdana;fontStyle=1;fontColor=#090e14;fillColor=#5C8CCA;strokeColor=#456893;rounded=1;shadow=0;glass=0;sketch=0;" parent="1" vertex="1">
