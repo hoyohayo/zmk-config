@@ -56,14 +56,14 @@
         // pressing all modifiers fixes it.
 
         unstick: unstick {
-            label = "ZM_unstick";
+            //label = "ZM_unstick";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LSHIFT &kp RSHIFT &kp LCTRL &kp RCTRL &kp LALT &kp RALT &kp LGUI &kp RGUI>;
         };
 
         uc_pm: uc_pm {
-            label = "ZM_plus_minus";
+            //label = "ZM_plus_minus";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
@@ -75,7 +75,7 @@
         };
 
         uc_dia: uc_dia {
-            label = "ZM_dia";
+            //label = "ZM_dia";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
@@ -129,7 +129,7 @@
         // &trans -> transparent behavior simply ignores key position presses/releases, so the will be passed down to the next active layer in the stack
 
         default_layer {
-            label = "Base";
+            display-name = "Base";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                 &kp X         &kp V         &kp L         &kp C         &kp W             &kp K         &kp H         &kp G         &kp F         &kp Q
@@ -146,7 +146,7 @@
         // Numbers and high frequency symbols
 
         sym_layer {
-            label = "Sym1";
+            display-name = "Sym1";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                 &kp N1        &kp N2        &kp N3        &kp N4        &kp N5            &kp N6        &kp N7        &kp N8        &kp N9        &kp N0
@@ -163,7 +163,7 @@
         // Main modifiers and arrow keys
 
         ext_layer {
-            label = "NAV";
+            display-name = "NAV";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                 &kp ESC       &trans        &trans        &trans        &trans            &kp PG_UP     &kp HOME      &kp UP        &kp END       &caps_word
@@ -180,7 +180,7 @@
         // Function keys with modifiers
 
         fnc_layer {
-            label = "FNC";
+            display-name = "FNC";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                 &kp F1        &kp F2        &kp F3        &kp F4        &kp F5            &kp F6        &kp F7        &kp F8        &kp F9        &kp F10
@@ -197,7 +197,7 @@
         // Low frequency symbols and mouse clicks
 
         symbols_2_layer {
-            label = "Sym2";
+            display-name = "Sym2";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                 &kp DE_CIRC   &kp DE_UNDS   &kp DE_PERC   &kp DE_EURO   &kp DE_HASH       &none         &none         &none         &none         &none
@@ -214,7 +214,7 @@
         // Used to type regional accents. Not neccessary for german, but still missing some letters, therefore y and ß have been placed here
 
         accent_layer {
-            label = "Accent";
+            display-name = "Accent";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                 &none         &none         &none         &none         &none             &none         &none         &none         &none         &none
@@ -231,7 +231,7 @@
         // Used to change the keyboard's settings.
 
         settings_layer {
-            label = "Settings";
+            display-name = "Settings";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                 &bootloader   &none         &none         &bt BT_CLR    &bt BT_SEL 0      &bt BT_SEL 3  &none         &unstick      &none         &bootloader
@@ -248,7 +248,7 @@
         // Numpad layer
 
         numpad_layer {
-            label = "NUM";
+            display-name = "NUM";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                 &tog NUM      &kp KP_DIVIDE &kp KP_MULTIPLY &kp KP_PLUS &kp KP_MINUS      &none         &kp KP_N7     &kp KP_N8     &kp KP_N9     &kp BSPC
