@@ -20,7 +20,7 @@
 };
 
 // 17 + 6 LEDs, from https://docs.splitkb.com/hc/en-us/articles/6485468787100-Aurora-Sweep-schematics
-// 6 backlight LEDs were not soldered so only 17 per side
+// 6 backlight LEDs were not soldered so only 17 per side and according to https://zmk.dev/docs/features/lighting it should be set to installed LED per half
 &led_strip {
     chain-length = <17>;
 };
